@@ -10,10 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var collectionView: UICollectionView!
+    var collectionView: UICollectionView!
+    
+    let searchView = SearchListView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+                
+        searchView.frame = self.view.frame
+        self.view.addSubview(searchView)
+        
+        self.collectionView = self.searchView.collectionView
         
         self.collectionView.delegate = self
         self.collectionView.dataSource = self

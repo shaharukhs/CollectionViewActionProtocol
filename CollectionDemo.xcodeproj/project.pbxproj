@@ -14,6 +14,8 @@
 		E9422FCB20F35E5300D1E550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9422FC920F35E5300D1E550 /* LaunchScreen.storyboard */; };
 		E9422FD420F35E8B00D1E550 /* SearchCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9422FD220F35E8B00D1E550 /* SearchCollectionCell.xib */; };
 		E9422FD520F35E8B00D1E550 /* SearchCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9422FD320F35E8B00D1E550 /* SearchCollectionCell.swift */; };
+		E9422FD920F4896F00D1E550 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9422FD820F4896F00D1E550 /* SearchListView.swift */; };
+		E9422FDD20F4898600D1E550 /* SearchListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9422FDC20F4898600D1E550 /* SearchListView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E9422FCC20F35E5300D1E550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9422FD220F35E8B00D1E550 /* SearchCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionCell.xib; sourceTree = "<group>"; };
 		E9422FD320F35E8B00D1E550 /* SearchCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionCell.swift; sourceTree = "<group>"; };
+		E9422FD820F4896F00D1E550 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		E9422FDC20F4898600D1E550 /* SearchListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchListView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				E9422FCC20F35E5300D1E550 /* Info.plist */,
 				E9422FD220F35E8B00D1E550 /* SearchCollectionCell.xib */,
 				E9422FD320F35E8B00D1E550 /* SearchCollectionCell.swift */,
+				E9422FD820F4896F00D1E550 /* SearchListView.swift */,
+				E9422FDC20F4898600D1E550 /* SearchListView.xib */,
 			);
 			path = CollectionDemo;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9422FCB20F35E5300D1E550 /* LaunchScreen.storyboard in Resources */,
+				E9422FDD20F4898600D1E550 /* SearchListView.xib in Resources */,
 				E9422FC820F35E5300D1E550 /* Assets.xcassets in Resources */,
 				E9422FC620F35E4F00D1E550 /* Main.storyboard in Resources */,
 				E9422FD420F35E8B00D1E550 /* SearchCollectionCell.xib in Resources */,
@@ -142,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9422FD920F4896F00D1E550 /* SearchListView.swift in Sources */,
 				E9422FC320F35E4F00D1E550 /* ViewController.swift in Sources */,
 				E9422FC120F35E4F00D1E550 /* AppDelegate.swift in Sources */,
 				E9422FD520F35E8B00D1E550 /* SearchCollectionCell.swift in Sources */,
